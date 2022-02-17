@@ -7,6 +7,6 @@ public class FileUtils
         string[] combinedPath = file.Split("/");
         combinedPath[^1] = "";
         if (!Directory.Exists(file)) Directory.CreateDirectory(String.Join("/", combinedPath));
-        if (!File.Exists(file)) File.AppendText(file);
+        if (!File.Exists(file)) File.AppendText(file).Close();
     }
 }
