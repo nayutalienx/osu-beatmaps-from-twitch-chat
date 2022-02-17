@@ -2,7 +2,7 @@
 **THIS USES UNDOCUMENTED API ENDPOINTS, MAY BREAK EASILY. I'LL TRY AND UPDATE WHEN IT DOES.**
 
 ## What can it do?
-- Parse osu! beatmaps from twitch chat
+- Parse osu! beatmaps download urls from twitch chat
 
 # CLI example
 ```
